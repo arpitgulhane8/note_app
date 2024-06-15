@@ -1,0 +1,55 @@
+.popup{
+    height: 200px;
+    width: 450px;
+    padding: 5px;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    border-radius:5px;
+}
+
+.popup_note{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.pgroup_name,.pcolor_picker{
+    margin-top: 5px;
+}
+
+.pgroup_label,.pcolor_option{
+    font-size: 18px;
+    font-weight:700 ;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.pinput{
+    width: 250px;
+    height:30px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.pcolor_btn{
+    margin: 5px;
+    margin-top: 25px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    border:none;
+}
+
+.pcreate{
+    background-color:black;
+    color: white;
+    margin-left: 320px;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    margin-top: 5px;
+}

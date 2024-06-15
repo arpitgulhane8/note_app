@@ -1,0 +1,223 @@
+/* Main App Layout */
+.main_app {
+    height: 600px;
+}
+
+.appLyout {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.blur {
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Popup Styles */
+.popup {
+    height: 200px;
+    width: 450px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.popup_note {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+.pgroup_name, .pcolor_picker {
+    margin-top: 5px;
+}
+
+.pgroup_label, .pcolor_option {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 5px;
+}
+
+.pinput {
+    width: 250px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.pcolor_btn {
+    margin: 5px;
+    margin-top: 25px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: none;
+}
+
+.pcreate {
+    background-color: black;
+    color: white;
+    margin-left: 320px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+/* Slidebar Styles */
+.slidebar {
+    width: 30%;
+    height: 630px;
+    box-sizing: border-box;
+}
+
+.spocket_note {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.screate_note {
+    width: 300px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 20px 40px;
+}
+
+.sgroup_btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 360px;
+    height: 60px;
+    color: black;
+    border-radius: 25px 0 0 25px;
+    margin: 10px 40px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.sinitials {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin: 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sgroup_name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Notearea Styles */
+.notearea {
+    width: 70%;
+    background-color: #F7ECDC;
+    height: 630px;
+    margin-top: 0%;
+}
+
+.header {
+    background-color: #E8E8E8;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.header_name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.back-button {
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.note_display {
+    height: 350px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.note_input {
+    height: 200px;
+    width: 100%;
+    border: 20px solid #E8E8E8;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.text_area {
+    height: 140px;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.text_area::placeholder {
+    text-align: left;
+    vertical-align: top;
+    color: red;
+}
+
+.add_btn {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+/* Media Query for small screens */
+@media (max-width: 550px) {
+    .notearea_home, .note_img {
+        display: none;
+    }
+
+    .slidebar {
+        width: 100%;
+    }
+
+    .notearea {
+        width: 100%;
+    }
+
+    .screate_note {
+        width: calc(100% - 40px);
+        margin: 20px;
+    }
+
+    .sgroup_btn {
+        width: calc(100% - 40px);
+        margin: 10px 20px;
+    }
+}

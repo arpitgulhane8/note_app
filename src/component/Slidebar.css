@@ -1,0 +1,56 @@
+.slidebar{ 
+    width: 30%;
+    height:630px;
+    box-sizing: border-box;
+}
+
+.slidebar .spocket_note{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.screate_note{
+    width: 300px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border-radius:20px;
+    margin:20px 40px;
+}
+
+.sgroup_btn{
+    display: flex;
+    justify-content:flex-start;
+    text-align: center;
+    align-items: center;
+    width: 360px;
+    height: 60px;
+    color:black;
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px ;
+    margin-left: 40px;
+    padding: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.sgroup_btn .sinitials{
+    width: 60px;
+    height: 60px;   
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 10px;
+    padding: 10px 10px 10px;
+    box-sizing: border-box;
+    color: white;
+    margin-left: 10px;
+}
+    
+.sgroup_name{
+    font-size: 30px;
+    font-weight: 700;
+}

@@ -1,0 +1,60 @@
+.main_app{
+    margin-top: 0%;
+    height: 600px;
+    
+}
+.appLyout {
+    position: relative;
+    display: flex;
+    width:100% ;
+    margin-top: 0%;
+    box-sizing: border-box;
+  }
+  
+  .blur {
+    filter: blur(5px);
+    pointer-events: none; /* Prevent interaction with blurred elements */
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+
+  .main_app{
+    display: flex;
+    width:100% ;
+  }
+
+  @media (max-width: 550px) {
+    .notearea_home{
+        display: none;
+    }
+
+    .slidebar {
+        width: 100%;
+    }
+
+    .notearea {
+        display: none;
+    }
+
+    .screate_note {
+        width: calc(100% - 40px);
+        margin: 20px;
+    }
+
+    .sgroup_btn {
+        width: calc(100% - 40px);
+        margin: 10px 20px;
+    }
+}
